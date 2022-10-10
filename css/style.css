@@ -1,0 +1,39 @@
+[class*=col]{
+    background-color: rgb(0, 98, 255);
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.row3{
+    background-color: rgb(0, 98, 255);
+}
+
+.riga{
+    height: 2vh;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container-nested, .container-nested2, .container-nested3{
+    width: 100%;
+    height: 90%;
+    padding: 5px;
+    display: flex;
+    gap: 3px;
+}
+.nested{
+    background-color: rgb(19, 181, 19);
+}
+
+.container-nested2{ 
+    gap: 80px;
+    justify-content: space-around;
+}
+
+.container-nested3{
+    gap: 80px;
+    justify-content: space-between;
+}
